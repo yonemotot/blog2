@@ -1,0 +1,86 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+.container{
+  width: 380px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+ul > li{
+  padding: 3px 0;
+}
+
+header{
+  text-align: center;
+  background: skyblue;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-size:14px;
+  font-weight: bold;
+
+}
+
+.fs12{
+  font-size: 12px;
+  font-weight:bold;
+
+}
+
+.pull-right{
+  float: right;
+}
+
+.input{
+  overflow: hidden;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.input label{
+  width: 100px;
+  float: left;
+}
+
+.input input, .input textarea{
+  float: left;
+  width: 250px;
+  padding: 3px;
+}
+
+button{
+  margin-left: 100px;
+  width: 50px;
+  padding: 5px;
+}
+
+.error-message{
+  margin-left: 100px;
+  color: tomato;
+
+}
+
+.message{
+  text-align: center;
+  padding: 5px;
+  color:green;
+  background: Lavebder;
+}
+
+.hidden{
+  display: none;
+}
